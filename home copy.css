@@ -1,0 +1,99 @@
+#NAVLIST{
+list-style: none;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  color: white;
+}
+.CONTAINER{
+  height: 100vh;
+  width: 100vw;
+  background-color: #e2e5e8;
+  background-image: linear-gradient(98deg , #e2e5e8 0%, #ffffff 100%);
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.NAVCONTAINER{
+  background-color: rgb(99, 180, 204);
+  height: 80px;
+}
+P{
+  font-size: 2rem;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+#ITEM{
+  gap: 20px;
+  display: flex;
+}
+#contentbox{
+  width: 70%;
+  margin: auto;
+ box-shadow: 3px 3px 30px black;
+ padding: 20px;
+ padding-top: 20px;
+}
+#H{
+ padding-top: 10px;
+}
+#U{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#H2{
+  padding-top: 20px;
+}
+#OL{
+  padding-left: 20px;
+  padding-top: 20PX;
+}
+#U2{
+  padding-left: 20px;
+  
+}
+#OL2{
+  padding-left: 20px;
+
+}
+#RIGHTBOX1{
+  float: right;
+   padding-top: 20px ;
+   transform: all 0.6s linear 0s;
+}
+#RIGHTBOX1:hover{
+  transform: scale(1.2);
+
+}
+
+.rightbox2{
+  float: right;
+  transform: all 0.7s linear 0s;
+
+}
+.rightbox2:hover{
+  transform: scale(1.2);
+}
+#footer{
+  background-color: rgb(144, 238, 238);
+  font-size: 1rem;
+  text-align: center;
+  border: 1px solid black;
+}
+#heading1{
+  text-align: center;
+  text-decoration: underline;
+}
+#H3{
+  text-align: center;
+  text-decoration: underline;
+}
+

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #5bb5b3;
+    font-size: 14px;
+}
+
+#CONTACT {
+    width: 80%;
+    margin: 50PX AUTO;
+}
+
+#CALL {
+    background: #fff;
+    display: flex;
+}
+
+.LEFT {
+    flex-basis: 60%;
+    padding: 40PX 60PX;
+    flex-basis: 40%;
+}
+
+.RIGHT {
+    flex-basis: 60%;
+    padding: 40PX;
+    background: rgb(80, 211, 202);
+    color: black;
+}
+
+H2 {
+    margin-bottom: 10PX;
+}
+
+P {
+    margin-bottom: 40px;
+}
+
+INPUT {}
+
+#FORM1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20PX;
+}
+
+#FORM2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#FORM3 {
+    display: flex;
+    justify-content: center;
+    gap: 20PX;
+}
+
+#SUMBITBUTTON {
+    display: flex;
+    justify-content: center;
+    border-radius: 20PX;
+    background-color: ;
+    color: blue;
+}
+
+#REACH {
+    gap: NONE;
+}
+
+#goto {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}

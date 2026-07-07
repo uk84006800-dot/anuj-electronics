@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+BODY {
+    height: 100VH;
+    width: 100vw;
+}
+
+#CONTAINER {
+
+    display: grid;
+    height: 100VH;
+    width: 100vw;
+    padding: 2rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1REM;
+    column-gap: 1REM;
+    background-image: url('APPLIANCES.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    height: 70%;
+    width: 100%;
+
+}
+
+.sidebar {
+    grid-row-start: 2;
+    grid-row-end: 11;
+    height: 118%;
+    margin-top: -60px;
+
+
+
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 17;
+    ;
+}
+
+.con {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    height: 118%;
+    margin-top: -60px;
+
+}
+
+#HEAD {
+    text-align: center;
+}
+
+#BACK {
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    font-weight: bolder;
+}
+
+#PARA {
+    padding-left: 40px;
+    margin-left: 10PX;
+    font-size: medium;
+    font-weight: 900;
+
+}
+
+#parts {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#LIST {
+    padding-left: 140PX;
+    font-weight: 900;
+
+}
+
+#PRICE {
+    text-align: center;
+    font-weight: bolder;
+}
+
+H4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 30PX;
+}
+
+#LIST2 {
+    padding-left: 400px;
+    font-weight: bold;
+}
+
+A {
+    float: right;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 20PX;
+    padding-right: 10PX;
+    padding-left: 10PX;
+    margin-right: 10PX;
+    color: black;
+}

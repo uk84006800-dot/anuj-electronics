@@ -1,0 +1,90 @@
+body {
+    /* Path to your image */
+    background-image: url('frizep.jpg');
+
+    /* Prevents the image from repeating */
+    background-repeat: no-repeat;
+
+    /* Centers the image horizontally and vertically */
+    background-position: center;
+
+    /* Scales the image to cover the entire screen */
+    background-size: cover;
+
+    /* Keeps the background fixed during scroll */
+    background-attachment: fixed;
+
+    /* Resets default margins and stretches height */
+    margin: 0;
+    height: 100vh;
+}
+
+img {
+    width: 350px;
+    height: 600px;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+#1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+table {
+
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-spacing: 0;
+
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+A {
+    TEXT-DECORATION: UNDERLINE;
+    FLOAT: RIGHT;
+    PADDING-BOTTOM: 35PX;
+}
+
+p {
+    border: 1px solid black;
+    width: 1050px;
+}
+
+td {
+    font-size: 1.2rem;
+}
+
+P {
+
+    padding-left: 50px;
+}
+
+#BACK {
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+A {
+    float: right;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 20PX;
+    padding-right: 10PX;
+    padding-left: 10PX;
+    margin-right: 10PX;
+    color: black;
+}
